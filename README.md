@@ -1,15 +1,48 @@
-# DSA
-🚀 **This repository contains my complete journey of learning Data Structures and Algorithms using _Python_.**
+# DSA 🚀
+
+**A collection of Data Structures & Algorithms implementations and practice problems in Python.**
 
 ## Overview
-This repo contains my implementations, notes, and practice problems as I learn Data Structures and Algorithms in Python.
+This repository contains implementations, notes, and solved problems organized by topic. It's intended for learning, reference, and small experiments.
 
-## Current structure
-- `Array/` — implementations related to arrays (e.g., `DynamicArray.py`)
+## Features
+- Implementations in plain Python (no external dependencies)
+- Short example usage for each module
+- Exercises & notes (work in progress)
 
-## How to use
-- Explore the code, run or extend the examples, and add your own notes or tests.
-- **Recommended:** Python 3.8+.
+## Project structure
+- `Array/` — array implementations and examples (e.g., `DynamicArray.py`)
+- (Add more folders as you implement them)
+
+## Topics covered
+- **Array** — Dynamic array implementation (`Array/DynamicArray.py`) ✅ **Covered**
+
+## Requirements
+- Python 3.8+
+
+## Usage
+Run an example file directly:
+
+```bash
+python Array/DynamicArray.py
+```
+
+Or import and use the implementation from your scripts:
+
+```python
+from Array.DynamicArray import MereList
+
+lst = MereList()
+lst.append("Alice")
+lst.append(42)
+print(lst, len(lst))
+```
+
+## Contributing
+Contributions are welcome — open an issue or a pull request. Please keep changes small and include tests or examples when possible.
+
+
 
 ---
+
 *Progress log:* Working through topics folder-by-folder; more content will be added as I practice and solve problems.
