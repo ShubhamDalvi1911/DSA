@@ -27,7 +27,22 @@ This repository contains implementations, notes, and solved problems organized b
     9. insert
     10. delete
     11. remove
-- **LinkedList** — Singly linked list implementation (`LinkedList/linkedlist.py`) 
+- **LinkedList** — Singly linked list implementation (`LinkedList/linkedlist.py`) ✅ **Covered**
+  - Implementation includes:
+    1. Node class
+    2. Linked List class
+    3. len
+    4. Print the linked list
+    5. Insert at head
+    6. Insert at tail
+    7. Insert after a value
+    8. Clear LL
+    9. Delete at head
+    10. Delete at tail
+    11. Delete by value
+    12. Delete by index
+    13. Search by value
+    14. Search by index 
 
 ## Requirements
 - Python 3.8+
