@@ -11,8 +11,7 @@ This repository contains implementations, notes, and solved problems organized b
 ## Project structure
 - `Array/` — array implementations and examples (e.g., `dynamicarray.py`)
 - `LinkedList/` — linked list implementations and examples (e.g., `linkedlist.py`) 
-- (Add more folders as you implement them) 
-
+- `LinkedList/Assignment` — linked list questions and Answers (e.g., `replace_max.py , sum_odd_nodes , change_sentance , reverse_linkedlist`)
 ## Topics covered
 - **Array** — Dynamic array implementation (`Array/dynamicarray.py`) ✅ **Covered**
   - Implementation includes:
