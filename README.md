@@ -12,6 +12,13 @@ This repository contains implementations, notes, and solved problems organized b
 - `Array/` — array implementations and examples (e.g., `dynamicarray.py`)
 - `LinkedList/` — linked list implementations and examples (e.g., `linkedlist.py`) 
 - `LinkedList/Assignment` — linked list questions and Answers (e.g., `replace_max.py , sum_odd_nodes , change_sentance , reverse_linkedlist`)
+
+## Modules
+- `Modules/` — reusable modules used by assignment scripts and examples:
+  - `Modules/LL.py` — a simple `LinkedList` (and `Node`) implementation intended for reuse across scripts; assignment examples import it with `import Modules.LL as LL`.
+
+**Note:** For imports like `Modules.LL` to work when running files directly, run scripts from the repository root (recommended), or the scripts add the project root to `sys.path` at runtime.
+
 ## Topics covered
 - **Array** — Dynamic array implementation (`Array/dynamicarray.py`) ✅ **Covered**
   - Implementation includes:
