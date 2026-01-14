@@ -2,7 +2,7 @@
 Creat Linked List
 1) Node
 2) Linked List
-3)Len
+3) Len
 4) Insert at head
 5) Print the linked list
 6) Insert at tail
@@ -183,51 +183,55 @@ class LinkedList:
             pos = pos + 1
         return 'Index out of bounds'
     
-a = Node(1)
-print(a)        # Output: <__main__.Node object at ...>
-print(a.data)  # Output: 1
-print(a.next)  # Output: None
+def main():
+    a = Node(1)
+    print(a)        # Output: <__main__.Node object at ...>
+    print(a.data)  # Output: 1
+    print(a.next)  # Output: None
 
-L = LinkedList()
-print(L)        # Output: <__main__.LinkedList object at ...>
-print(len(L))  # Output: 0
+    L = LinkedList()
+    print(L)        # Output: <__main__.LinkedList object at ...>
+    print(len(L))  # Output: 0
 
-L.insert_head(10)
-L.insert_head(20)
-L.insert_head(30)
-L.insert_head(40)
+    L.insert_head(10)
+    L.insert_head(20)
+    L.insert_head(30)
+    L.insert_head(40)
 
-print(len(L))  # Output: 4
+    print(len(L))  # Output: 4
 
-print(L)        # Output: 40 -> 30 -> 20 -> 10
+    print(L)        # Output: 40 -> 30 -> 20 -> 10
 
-L.append(50)
-print(L)        # Output: 40 -> 30 -> 20 -> 10 -> 50
+    L.append(50)
+    print(L)        # Output: 40 -> 30 -> 20 -> 10 -> 50
 
-L.insert_after(20, 25)
-print(L)        # Output: 40 -> 30 -> 20 -> 25 -> 10 -> 50
+    L.insert_after(20, 25)
+    print(L)        # Output: 40 -> 30 -> 20 -> 25 -> 10 -> 50
 
-# L.clear()
-print(L)        # Output:
-print(len(L))  # Output: 0
+    # L.clear()
+    print(L)        # Output:
+    print(len(L))  # Output: 0
 
-L.delete_head()
-print(L)        # Output: 30 -> 20 -> 25 -> 10 -> 50
+    L.delete_head()
+    print(L)        # Output: 30 -> 20 -> 25 -> 10 -> 50
 
-L.pop()
-print(L)        # Output: 30 -> 20 -> 25 -> 10
+    L.pop()
+    print(L)        # Output: 30 -> 20 -> 25 -> 10
 
-L.remove(25)
-print(L)        # Output: 30 -> 20 -> 10
+    L.remove(25)
+    print(L)        # Output: 30 -> 20 -> 10
 
-L.remove(30)
-print(L)        # Output: 20 -> 10
+    L.remove(30)
+    print(L)        # Output: 20 -> 10
 
-L.remove(100)  # Value not found
+    L.remove(100)  # Value not found
 
-print(L.search(10))  # Output: 1
-print(L.search(100))  # Output: Not found in the list
+    print(L.search(10))  # Output: 1
+    print(L.search(100))  # Output: Not found in the list
 
-print(L[0])  # Output: 20
-print(L[1])  # Output: 10
-print(L[2])  # Output: Index out of bounds
+    print(L[0])  # Output: 20
+    print(L[1])  # Output: 10
+    print(L[2])  # Output: Index out of bounds
+
+if __name__ == "__main__":
+    main()

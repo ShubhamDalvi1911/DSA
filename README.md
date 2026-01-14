@@ -12,6 +12,7 @@ This repository contains implementations, notes, and solved problems organized b
 - `Array/` — array implementations and examples (e.g., `dynamicarray.py`)
 - `LinkedList/` — linked list implementations and examples (e.g., `linkedlist.py`) 
 - `LinkedList/Assignment` — linked list questions and Answers (e.g., `replace_max.py , sum_odd_nodes , change_sentance , reverse_linkedlist`)
+- `Stack/` — stack implementations and examples (e.g., `stack.py`, `text_editor.py`, `string_reverse.py`) 
 
 ## Modules
 - `Modules/` — reusable modules used by assignment scripts and examples:
@@ -49,6 +50,15 @@ This repository contains implementations, notes, and solved problems organized b
     12. Delete by index
     13. Search by value
     14. Search by index 
+
+- **Stack** — Created a Stack (`Stack/stack.py`) ✅ **Covered**
+  - Implementation includes:
+    1. Push
+    2. Pop
+    3. Peek
+    4. Isempty
+    5. Size
+    6. Traverse
 
 ## Requirements
 - Python 3.8+
