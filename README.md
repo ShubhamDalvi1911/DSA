@@ -11,8 +11,9 @@ This repository contains implementations, notes, and solved problems organized b
 ## Project structure
 - `Array/` — array implementations and examples (e.g., `dynamicarray.py`)
 - `LinkedList/` — linked list implementations and examples (e.g., `linkedlist.py`) 
-- `LinkedList/Assignment` — linked list questions and Answers (e.g., `replace_max.py , sum_odd_nodes , change_sentance , reverse_linkedlist`)
-- `Stack/` — stack implementations and examples (e.g., `stack.py`, `text_editor.py`, `string_reverse.py`) 
+- `LinkedList/Assignment/` — linked list questions and answers (e.g., `replace_max.py`, `sum_odd_nodes.py`, `change_sentance.py`, `reverse_linkedlist.py`)
+- `Stack/` — stack implementations and examples (e.g., `stack.py`, `text_editor.py`, `string_reverse.py`, `stacks_using_array.py`)
+- `Queue/` — queue implementations and examples (e.g., `queue_using_stack.py`, `queue_using_LL.py`)
 
 ## Modules
 - `Modules/` — reusable modules used by assignment scripts and examples:
@@ -51,7 +52,7 @@ This repository contains implementations, notes, and solved problems organized b
     13. Search by value
     14. Search by index 
 
-- **Stack** — Created a Stack (`Stack/stack.py`) ✅ **Covered**
+- **Stack** — Stack implementation (`Stack/stack.py`) ✅ **Covered**
   - Implementation includes:
     1. Push
     2. Pop
@@ -59,6 +60,14 @@ This repository contains implementations, notes, and solved problems organized b
     4. Isempty
     5. Size
     6. Traverse
+  - Related implementations:
+    - `stacks_using_array.py` — Array-based stack implementation
+    - `string_reverse.py` — String reversal using stack
+    - `text_editor.py` — Text editor simulation using stack
+
+- **Queue** — Queue implementations ✅ **Covered**
+  - `queue_using_stack.py` — Queue implementation using stacks
+  - `queue_using_LL.py` — Queue implementation using linked lists
 
 ## Requirements
 - Python 3.8+
