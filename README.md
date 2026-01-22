@@ -14,6 +14,7 @@ This repository contains implementations, notes, and solved problems organized b
 - `LinkedList/Assignment/` — linked list questions and answers (e.g., `replace_max.py`, `sum_odd_nodes.py`, `change_sentance.py`, `reverse_linkedlist.py`)
 - `Stack/` — stack implementations and examples (e.g., `stack.py`, `text_editor.py`, `string_reverse.py`, `stacks_using_array.py`)
 - `Queue/` — queue implementations and examples (e.g., `queue_using_stack.py`, `queue_using_LL.py`)
+- `Searching/` — searching algorithms and array utilities (e.g., `binary_search.py`, `linear_search.py`, `sorting.py`)
 
 ## Modules
 - `Modules/` — reusable modules used by assignment scripts and examples:
@@ -68,6 +69,11 @@ This repository contains implementations, notes, and solved problems organized b
 - **Queue** — Queue implementations ✅ **Covered**
   - `queue_using_stack.py` — Queue implementation using stacks
   - `queue_using_LL.py` — Queue implementation using linked lists
+
+- **Searching & Sorting** — Searching algorithms and utilities
+  - `binary_search.py` — Recursive binary search implementation
+  - `linear_search.py` — Linear search implementation
+  - `sorting.py` — Utility to check if a list is sorted
 
 ## Requirements
 - Python 3.8+
