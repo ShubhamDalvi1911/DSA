@@ -74,6 +74,8 @@ This repository contains implementations, notes, and solved problems organized b
   - `binary_search.py` — Recursive binary search implementation
   - `linear_search.py` — Linear search implementation
   - `sorting.py` — Utility to check if a list is sorted
+  - `bubble_sort.py` — Utility to check if a list is sorted
+  - `mokey_sort.py` — Utility to check if a list is sorted
 
 ## Requirements
 - Python 3.8+
